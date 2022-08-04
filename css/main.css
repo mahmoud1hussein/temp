@@ -1,0 +1,633 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+    margin: 0;
+    line-height: 1.6;  
+    scroll-behavior: smooth;
+}
+
+body {
+ font-family: 'Poppins', sans-serif;
+background-color: var(--primary-color);
+color: var(--secondry-color) !important;
+
+}
+
+
+.dark-theme{
+    --primary-color:#2a2a2a;
+    --secondry-color:#fff;
+}
+
+.container{
+    max-width: 1150px;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* header */
+header{
+    padding-top: 24px;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: center;
+}
+
+.header {
+    float: left;
+    font-size: 18px;
+    line-height: 2.5rem;
+
+}
+.navv {
+    float: right;
+}
+
+.link {
+    padding: 0;
+    text-decoration: none;
+    font-size: 15px !important;
+    color: #1c1c1c; 
+    margin-left: 10px;
+    padding: 0;
+    line-height: 2.5rem;
+    opacity: 0.8;
+ }
+ .name {
+    color: var(--secondry-color);
+ }
+ @media (max-width: 768px) {
+    
+    .container {
+        max-width: 767;
+    }
+    .header ,.navv ,.nav  {
+     display: flex;
+     justify-content: center;
+     float: none;
+    }
+ }
+ @media (min-width: 769px),(max-width: 800px) {
+    .container {
+        max-width: 780;
+    }
+    .header ,.navv ,.nav  {
+     display: flex;
+     margin-right: -8px;
+    padding-top: 7px;
+    }
+ }
+ @media (min-width: 801px) {
+    .container {
+        max-width: 1150px;
+    }
+    .header ,.navv ,.nav  {
+        margin-right: 0px;
+        padding-top: -1px;
+    }
+    
+ }
+/* header */
+
+/* mahmoud */
+
+.sh {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    box-shadow: -1px 1px 13px -4px rgb(10 5 10); 
+}
+
+.cover-img {
+    background-repeat: no-repeat;
+    max-height: 520px;
+    position: relative;
+    overflow: hidden;
+    background-position: 50%;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.over {
+    height: 100%;
+    top: 0;
+     right: 0; 
+     bottom: 0; 
+     left: 0; 
+    width: 100%;
+    position: absolute;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.pic img {
+    border-style: solid;
+    border-radius: 14px;
+    border-width: 5px;
+}
+
+.mahmoud-hussein {
+    padding: 48px;
+    text-align: center ;
+}
+.h-bio {
+    margin-top: 16px;
+}
+.mh {
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 12px;
+
+}
+.hd p{
+    
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.social-links {
+    font-size: 21px !important;
+}
+
+.fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    padding: 8px;
+    color: #fff;
+}
+.btn {
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 0.625rem 2.5rem 0.5rem;
+    font-size: 15px;
+    line-height: 1.5;
+    text-decoration: none;
+    width: 100%;
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-left: 9px;
+    margin-right: 9px;
+    border-width: 1px;
+    color: #fff;
+}
+.social-links {
+    font-size: 21px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-links div {
+    margin-top: 16px;
+}
+.hire {
+    background-color:#0dcaf0;
+    border-color:#0dcaf0;
+}
+/* mahmoud */
+/* about */
+.shadow {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    box-shadow: -1px 1px 13px -4px rgb(10 5 10); 
+    padding: 32px;
+ }
+
+.flex {
+    display: flex;
+}
+.rw {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+    margin-right:8px;
+    margin-left: 8px;
+    flex-direction: row;
+}
+
+.about-cl ,.blue , .purple ,.pimg ,.portp,.aiyana {
+    width: 50% !important;
+    
+}
+.rw > * {
+    
+    flex-shrink: 0;
+    max-width: 100%;
+    padding-right: 8px ;
+    width: 100%;
+    padding-left: 8px;
+    margin-top: 8px;
+}
+
+.about-cl h2 , .bio-cl h2 , .skills-part h2 ,.work-part h2 , .experience-part h2 ,.portfolio-part h2, .refrences-part h2 , .contact-part h2{ 
+text-align: left;
+font-weight: 200;
+font-size: 32px;
+margin-bottom: 15px;
+}
+.about-cl p {
+   font-size: 15px;
+   text-align: left;
+   margin-top: 14.5px;
+   margin-bottom: 12px;
+}
+
+.bio-cl {
+    width: 41%;
+    margin-left: 8%;
+}
+.bi {
+    margin-top: 8px;
+    
+}
+.first {
+    display: flex;
+    text-align: left;
+    flex: 0 0 auto;
+    width: 41%;
+    font-weight: 700;
+    font-size: 16px;
+}
+.second {
+    text-align: left;
+    display: flex;
+    flex: 0 0 auto;
+    width: 58%;
+}
+.flex .fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    padding-right: 10px;
+    color: #404040;
+    color: var(--secondry-color);
+}
+/* about */
+/* skills */
+
+.blue span,.purple span {
+    display: flex;
+    font-weight: bolder;
+}
+.blue .br {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-style: solid;
+    border-color: #0abde1;
+    border-radius: 4px;
+    background-color: #0abde1;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.purple .br {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #9f31e5;
+    background-color: #9f31e5;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.back {
+background-color: #dcdee1;
+border-radius: 7px;
+margin: 10px;
+margin-left: -2px;
+}
+/* skills */
+
+/* work and exp */
+.card {
+    position: relative;
+    margin-left: 16px;
+}
+.card-head {
+    padding-top: 1rem !important;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+.card-t {
+    font-size: 17px;
+    font-weight: 600;
+}
+.card-t span {
+    font-size: 14px;
+    color: #3d4750;
+}
+.card-small {
+    font-size: 13px;
+    color: #3d4750;
+    margin-bottom: 16px;
+    margin-top: 5px;
+}
+.lp{
+    font-weight: 300;
+}
+.card-p {
+    border-left: 2px solid #bfc1c3;
+    padding-bottom: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+
+
+.card::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: var(--secondry-color);
+    background-color: transparent;
+    border-radius: 100%;
+    color: #0abde1;
+    width: 24px;
+    height: 24px;
+    top: 16px;
+    left: -12px;
+    border: 5px solid;
+    z-index: 2;
+}
+
+ .experience-part .card::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: var(--secondry-color);
+    background-color: transparent;
+    border-radius: 100%;
+    color: #22bb8d;
+    width: 24px;
+    height: 24px;
+    top: 16px;
+    left: -12px;
+    border: 5px solid;
+    z-index: 2;
+}
+
+/* work and exp */
+
+/* portfolio */
+.mrg {
+    margin-left: -15px !important;
+    margin-top: 0.5rem ;
+    margin: 1.5rem ;
+}
+
+.p-small {
+    color: #22bb8d;
+    font-size: 14px;
+}
+.h3 {
+    font-size: 24px;
+    margin-top: 7px;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+.portx {
+    text-align: right;
+}
+.pimg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* portfolio */
+
+/* refrences */
+.aiyana-h {
+    display: flex;
+}
+.ainfo {
+    margin: 16px;
+}
+.ah3 {
+    font-size: 15px;
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+.ph3 {
+    font-size: 13px;
+    font-weight: 300;
+}
+.aiyana-p {
+    margin-right: 8px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 16px;
+    margin-left: 8px;
+}
+.dflex {
+    display: flex;
+    margin-left: 13px;
+    padding-top: 10px;
+}
+.dflex i {
+    color: #9f31e5;
+    font-size: 18px;
+    margin-top: -9px;
+}
+
+/* refrences */
+
+/* contact */
+
+.firstt {
+    width: 41%;
+}
+.secondd {
+    width: 58%;
+}
+.formc {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    padding: 0.375rem 0.75rem;
+}
+.cont {
+    margin-top: 4px;
+    color: #404040;
+    color: var(--secondry-color);
+}
+.form {
+    margin-top: 30px;
+}
+.form-b {
+    margin-bottom: 23px;
+}
+.btnn {
+    background-color: #21c0f7;
+    width: 100%;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 0.625rem 2.5rem 0.5rem;
+    font-size: 15px;
+    line-height: 1.5;
+    text-decoration: none;
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-right: 9px;
+    border-width: 1px;
+}
+/* contact */   
+
+/* footer */
+footer {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.foot-nav {
+    margin-top: -9px;
+    margin-bottom: 3px;
+}
+.h4 ,h4 {
+    color: #6c6c6c;
+    font-weight: 300;
+    font-size: 25px;
+    color: var(--secondry-color);
+}
+.name2 i {
+    font-weight: 400;
+    padding: 8px;
+    color:  #6c6c6c;
+    font-size: 18px;
+}
+.copyright {
+    font-size: 13px;
+    font-weight: 300;
+}
+/* footer */
+
+@media (max-width: 530px) {
+    .social-links div {
+        display: flex;
+        flex-direction: column;
+        margin-top: -4px;
+    }
+    .mh {
+        font-size: 28px;
+    }
+    .btn{
+        margin-bottom: 3px;
+        max-width: 100px;
+        max-height: 60px;
+        display: flex;
+        flex-direction: column;
+        padding: 5px 3px 4px;
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    .bi {
+        display: flex;
+        flex-direction: column;
+        margin-left: -35px;
+    }
+}
+@media (max-width: 768px) {
+    .flex ,.contact-part .rw {
+        display: block;
+    }
+    .about-cl, .blue, .purple, .pimg, .portp, .aiyana {
+        width: 100% !important ;
+    }
+    .bio-cl ,.firstt,.secondd {
+        width: 100%;
+    }
+    .rw img {
+        max-width: 100%;
+    }
+    .pimg {
+        margin-left: -22px;
+    }
+    .portx .portp {
+        text-align: right;
+    }
+    iframe {
+        max-width: 100% !important;
+    }
+}
+@media (min-width: 769px) {
+    .rw {
+        display: flex;
+        align-items: flex-start;
+    }
+    iframe {
+        max-width: 100% !important;
+    }
+    .flex {
+        display: flex;
+    }
+    .about-cl, .blue, .purple, .pimg, .portp, .aiyana {
+        width: 100% ;
+    }
+    .bio-cl {
+        width: 41%;
+    }
+    .pimg {
+        margin-left: 0;
+    }
+    }
+  
+    @media (min-width: 769px)and(max-width: 1090px) {
+        .mrg {
+            margin-left: -15px !important;
+            margin-top: 0.5rem ;
+            margin: 1.5rem ;
+        }
+        
+        .p-small {
+            color: #22bb8d;
+            font-size: 14px;
+        }
+        .h3 {
+            font-size: 24px;
+            margin-top: 7px;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+        .portx {
+            text-align: right;
+        }
+        .pimg {
+            max-width: 100%;
+            height: auto;
+        } 
+        .portx,.portx .portp,.portx img {
+            text-align: left;
+        }
+
+}
+@media (min-width:769px),(max-width:1090px) {
+    .portx,.portx .portp,.portx img {
+        text-align: left;
+    }
+}
+
+/* end */
